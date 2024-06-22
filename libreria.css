@@ -50,12 +50,13 @@ ul {
 
 .contenido-dos {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .mensaje {
   display: flex;
   width: 500px;
-  height: 500px;
   justify-content: center;
   align-items: center;
   margin-left: 80px;
@@ -63,11 +64,10 @@ ul {
 }
 
 .img1 {
-  width: 500px;
-  height: 500px;
-  justify-content: center;
-  margin-left: 250px;
+  width: 400px;
+  height: 400px;
   display: flex;
+ 
 }
 
 .finalcontenido {
@@ -82,9 +82,23 @@ ul {
   padding-left: 50px;
 }
 
+.email-cel{display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 30PX;}
+
 .imgbiblia {
   width: 400px;
   height: 400px;
   padding: 50px;
   margin: 50px;
+}
+
+
+
+@media (max-width:630px){
+  ul{flex-direction: column;}
+}
+@media (max-width:630px){
+  .contenido-dos{flex-direction: column;}
 }

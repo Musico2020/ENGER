@@ -14,8 +14,8 @@ body {
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
 }
 
 .titulo {
@@ -28,16 +28,17 @@ body {
   list-style: none;
   text-decoration: none;
   color: black;
+  font-family:fantasy;
 }
 
 .lista :hover {
-  background-color: rgba(3, 243, 151, 0.836);
+  background-color: rgb(84, 109, 221);
 }
 .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgb(200, 227, 245);
   padding-right: 100px;
 }
 
@@ -66,3 +67,28 @@ ul {
   gap: 30px;
   margin-left: 50px;
 }
+
+.contactanos{display: flex;
+padding-left: 50px;}
+
+.finalcontenido {
+ background-color: rgb(200, 227, 245);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;}
+
+.email-cel{display: flex;
+flex-direction: column;
+align-items: center;
+margin-left: 30PX;}
+
+@media (max-width:630px){
+  ul{flex-direction: column;}
+}
+
+@media (max-width:630px){
+  .productos{flex-direction: column;}}
+
+  @media (max-width:630px){
+  .productos-dos{flex-direction: column;}}
